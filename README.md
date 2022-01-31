@@ -1,17 +1,21 @@
-## My Project
+# GadgetsOnline-DotNet
+A sample online shopping app in ASP.NET MVC 5.
 
-TODO: Fill this README out!
+1. Update connection string GadgetsOnlineEntities in Web.config.
+3. Run the application using Visual Studio or dotnet CLI.
 
-Be sure to:
 
-* Change the title in this README
-* Edit your repository description on GitHub
 
-## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+# License
 
-## License
+The application code is released under the MIT-0 License
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+# Pre-Requisites 
 
+
+1. Visual Studio 2019 16.4 or later with the ASP.NET and web development workload
+2. Full .NET Framework 4.0 and 4.8    
+3. SQL Server Management Studio
+4. MS SQL Server (LocalDB version is perfectly suitable with appropriate connection string adjustments).
+5. Git for Windows.
