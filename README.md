@@ -1,5 +1,5 @@
 # GadgetsOnline-DotNet
-A sample online shopping app in ASP.NET MVC 5.
+A sample online shopping app built using ASP.NET MVC 5.
 
 1. Update connection string GadgetsOnlineEntities in Web.config.
 3. Run the application using Visual Studio or dotnet CLI.
