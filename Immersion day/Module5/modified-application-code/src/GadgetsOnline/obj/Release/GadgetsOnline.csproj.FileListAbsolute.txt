@@ -1,0 +1,5 @@
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\modified-application-code\src\GadgetsOnline\obj\Release\GadgetsOnline.csproj.AssemblyReference.cache
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\modified-application-code\src\GadgetsOnline\obj\Release\GadgetsOnline.Migrations.InitialDBsetup.resources
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\modified-application-code\src\GadgetsOnline\obj\Release\GadgetsOnline.Migrations.UpdatedCar.resources
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\modified-application-code\src\GadgetsOnline\obj\Release\GadgetsOnline.csproj.GenerateResource.cache
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\modified-application-code\src\GadgetsOnline\obj\Release\GadgetsOnline.csproj.CoreCompileInputs.cache

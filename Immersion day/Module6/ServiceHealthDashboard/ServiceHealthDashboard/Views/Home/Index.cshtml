@@ -1,0 +1,26 @@
+﻿@model ServiceHealthDashboard.Models.ServiceStatusViewModel
+
+<div class="jumbotron">
+    <h1>@Model.StatusHeader</h1>
+    <p class="lead">@Model.StatusSubHeader</p>
+    <p><a href="/" class="btn btn-primary btn-lg">Refresh</a></p>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Service</th>
+            <th>Current Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Website</td>
+            <td>@Html.Partial("_StatusGlyph", Model.IsWebsiteAvailable)</td>
+        </tr>
+        <tr>
+            <td>Database</td>
+            <td>@Html.Partial("_StatusGlyph", Model.IsDatabaseAvailable)</td>
+        </tr>
+    </tbody>
+</table>

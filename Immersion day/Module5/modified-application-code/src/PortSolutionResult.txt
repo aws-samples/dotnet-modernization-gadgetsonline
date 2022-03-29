@@ -1,0 +1,80 @@
+==========
+References
+==========
+<global namespace>
+System
+System.Web
+GadgetsOnline
+System.Web.Optimization
+System.Web.Mvc
+System.Collections
+System.Web.Routing
+GadgetsOnline.Controllers
+GadgetsOnline.Services
+GadgetsOnline.Models
+System.Collections.Generic
+GadgetsOnline.ViewModel
+System.Data
+System.Data.Entity
+GadgetsOnline.Migrations
+System.Data.Entity.Migrations.Builders
+System.Data.Entity.Migrations
+System.CodeDom
+System.CodeDom.Compiler
+System.Resources
+System.ComponentModel
+System.ComponentModel.DataAnnotations
+System.Runtime
+System.Linq
+System.Reflection
+System.Runtime.CompilerServices
+System.Runtime.InteropServices
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.data.entity.json
+system.web.mvc.json
+system.web.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: C:\repos\GadgetsOnline-DotNet\GadgetsOnline\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+netcoreapp3.1
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+
+----------------------
+Showing results for: C:\repos\GadgetsOnline-DotNet\GadgetsOnline\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+netcoreapp3.1
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+
+
+===========
+BuildErrors
+===========
+
+

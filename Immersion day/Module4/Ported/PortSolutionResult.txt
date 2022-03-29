@@ -1,0 +1,88 @@
+==========
+References
+==========
+<global namespace>
+System
+GadgetsOnline
+GadgetsOnline.Controllers
+
+System.Dynamic
+Newtonsoft
+System.Web
+System.Web.Http
+System.Collections
+Microsoft
+Microsoft.AspNetCore
+Microsoft.AspNetCore.Mvc
+System.Web.Http.Description
+GadgetsOnline.Models
+GadgetsOnline.Services
+System.Data
+System.Data.Entity
+GadgetsOnline.Migrations
+System.ComponentModel
+System.ComponentModel.DataAnnotations
+Microsoft.EntityFrameworkCore
+System.Threading
+Microsoft.Extensions
+Microsoft.Extensions.Hosting
+Microsoft.AspNetCore.Hosting
+System.Linq
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.DependencyInjection
+Microsoft.AspNetCore.Builder
+Newtonsoft.Json
+System.Collections.Generic
+System.Threading.Tasks
+Microsoft.Extensions.Logging
+Microsoft.AspNetCore.HttpsPolicy
+System.Reflection
+project.all
+
+===============
+DownloadedFiles
+===============
+system.data.entity.json
+project.all.json
+system.web.http.json
+system.web.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: C:\Ported\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net5.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+
+----------------------
+Showing results for: C:\Ported\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net5.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+
+
+===========
+BuildErrors
+===========
+
+

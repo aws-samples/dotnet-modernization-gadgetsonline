@@ -1,0 +1,20 @@
+﻿
+@model List<GadgetsOnline.Models.Product>
+
+@{ ViewBag.Title = "Browse Gadgets"; }
+
+<div class="genre">
+    @*<h3><em>@Model.CategoryId</em> Albums</h3>*@
+
+    <ul id="album-list">
+        @foreach (var product in Model)
+        {
+            <li>
+                <a href="@Url.Action("Details", new { id = product.ProductId })">
+                    <img alt="@product.Name" src="@product.ProductArtUrl" />
+                    <span>@product.Name</span>
+                </a>
+            </li>
+}
+    </ul>
+</div>

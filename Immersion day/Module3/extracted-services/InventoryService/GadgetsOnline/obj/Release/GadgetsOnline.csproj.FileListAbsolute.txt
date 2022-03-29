@@ -1,0 +1,1 @@
+C:\Microservice-Extractor-Working\ASXAZ0AsujluEzu0\extracted-services\InventoryService\GadgetsOnline\obj\Release\GadgetsOnline.csproj.AssemblyReference.cache
