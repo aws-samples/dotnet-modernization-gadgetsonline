@@ -12,5 +12,7 @@ namespace GadgetsOnline.Models
         public System.DateTime DateCreated { get; set; }
         public virtual Product Product { get; set; }
 
+
+
     }
 }

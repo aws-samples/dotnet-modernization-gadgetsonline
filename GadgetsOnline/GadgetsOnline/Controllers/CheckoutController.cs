@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,6 +17,7 @@ namespace GadgetsOnline.Controllers
             {
                 this.orderProcessing = new OrderProcessing();
             }
+
             return this.orderProcessing;
         }
 
@@ -37,17 +38,19 @@ namespace GadgetsOnline.Controllers
         {
             var order = new Order();
             TryUpdateModel(order);
-
+            // Get list of items
+        
             try
             {
-
                 order.Username = "Anonymous";
                 order.OrderDate = DateTime.Now;
-
                 bool result = GetOrderProcess().ProcessOrder(order, this.HttpContext);
+                return RedirectToAction("Complete", new
+                {
+                id = order.OrderId
+                }
 
-                return RedirectToAction("Complete",
-                    new { id = order.OrderId });
+                );
             }
             catch
             {

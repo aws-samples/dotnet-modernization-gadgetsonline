@@ -1,4 +1,4 @@
-﻿using GadgetsOnline.Services;
+using GadgetsOnline.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +9,9 @@ namespace GadgetsOnline.Controllers
 {
     public class HomeController : Controller
     {
-        Inventory inventory;        
-
+        Inventory inventory;
         public ActionResult Index()
-        {            
+        {
             inventory = new Inventory();
             var products = inventory.GetBestSellers(6);
             return View(products);
