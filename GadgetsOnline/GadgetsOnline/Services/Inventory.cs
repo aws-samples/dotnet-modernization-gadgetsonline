@@ -15,8 +15,44 @@ namespace GadgetsOnline.Services
 
         static List<Product> products = new List<Product>();
         static List<Category> productCategory = new List<Category>();
+
+        public string  GetServerName()
+        {
+            string serverName = String.Empty;
+            // Get Products from database
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["GadgetsOnlineEntities"].ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandText = "select @@SERVERNAME as ServerName";
+                    cmd.Connection = con;
+                    cmd.CommandType = CommandType.Text;
+
+                    con.Open();
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    DataRow[] rows = dt.Select();
+                    //  List<Product> result = new List<Product>();
+
+                    if (rows.Count() > 0)
+                    {
+                        foreach (DataRow row in rows)
+                        {
+                            serverName = row["ServerName"].ToString();
+                        }
+                    }
+                    con.Close();
+                  
+                }
+            }
+            return serverName;
+
+
+        }
         public List<Product> GetBestSellers(int count) 
         {
+            string serverName = GetServerName();
             // Get Products from database
             using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["GadgetsOnlineEntities"].ConnectionString))
             {
