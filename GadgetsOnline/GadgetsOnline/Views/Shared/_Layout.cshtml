@@ -18,9 +18,11 @@
         <ul id="navlist">
             @if (User.Identity.IsAuthenticated)
             {
-<li><a>Welcome @User.Identity.Name</a></li>}
-            <li><a href="@Url.Content("~")" id="current">Home</a></li>            
-            <li><a href="@Url.Content("~/ShoppingCart")">ShoppingCart</a></li>            
+                <li><a>Welcome @User.Identity.Name</a></li>
+}
+            <li><a href="@Url.Content("~")" id="current">Home</a></li>
+            <li><a href="@Url.Content("~/Home/About")">About</a></li>
+            <li><a href="@Url.Content("~/ShoppingCart")">ShoppingCart</a></li>
         </ul>
     </div>
 

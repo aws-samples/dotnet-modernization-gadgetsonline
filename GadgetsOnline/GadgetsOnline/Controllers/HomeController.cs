@@ -21,6 +21,7 @@ namespace GadgetsOnline.Controllers
         public ActionResult About()
         {
             inventory = new Inventory();
+            //Test Git Changes - 
             string serverName = inventory.GetServerName();
             ViewBag.ServerName = serverName;
             ViewBag.Message = "Your application description page.";
