@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "GadgetsOnline",
+    "environment"    : "GadgetsOnline-dev-1",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-e934c693\";\"aws:ec2:vpc,Subnets\"=\"subnet-8825d5c1\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.4.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "gadgetsonline-dev-1",
+    "instance-type"        : "a1.large",
+    "key-pair"             : "AWS_Keys_IAD",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "none"
+}

@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "ARM64-test",
+    "environment"    : "Developer",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.4.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "gadgetsonline-test",
+    "instance-type"        : "a1.large",
+    "key-pair"             : "AWS_Keys_IAD",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

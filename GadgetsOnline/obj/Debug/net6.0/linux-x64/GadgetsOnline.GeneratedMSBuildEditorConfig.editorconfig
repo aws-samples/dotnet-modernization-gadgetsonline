@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GadgetsOnline
+build_property.RootNamespace = GadgetsOnline
+build_property.ProjectDir = C:\Users\runeetv\Downloads\gadgetsonline-legacy-gadgetsonline-ported-net6\GadgetsOnline\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\runeetv\Downloads\gadgetsonline-legacy-gadgetsonline-ported-net6\GadgetsOnline
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Checkout/AddressAndPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQWRkcmVzc0FuZFBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Checkout/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ29tcGxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Shared/Components/CategoryMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Store/Browse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQnJvd3NlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Store/CategoryMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQ2F0ZWdvcnlNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/Store/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/runeetv/Downloads/gadgetsonline-legacy-gadgetsonline-ported-net6/GadgetsOnline/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
