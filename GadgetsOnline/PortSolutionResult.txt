@@ -1,0 +1,906 @@
+==========
+References
+==========
+GadgetsOnline
+System.Web.Optimization
+System.Web.Mvc
+System.Web.Routing
+GadgetsOnline.Controllers
+GadgetsOnline.Services
+GadgetsOnline.Models
+System
+System.Collections.Generic
+GadgetsOnline.ViewModel
+System.Web
+GadgetsOnline.Migrations
+System.Data.Entity.Migrations
+System.Data.Entity.Migrations.Builders
+<global namespace>
+System.CodeDom.Compiler
+System.Data.Entity.Migrations.Infrastructure
+System.Resources
+System.ComponentModel.DataAnnotations
+System.Data.Entity
+System.ComponentModel
+System.Linq
+System.Security.Principal
+System.Reflection
+System.Runtime.CompilerServices
+System.Runtime.InteropServices
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.data.entity.json
+system.web.json
+system.web.mvc.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\App_Start\FilterConfig.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\HomeController.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: CreateNet6FolderHierarchy
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: MigrateConfig
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\GadgetsOnlineDBInitializer.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\Product.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\StoreController.cs
+---------------------------
+
+Action Type: AttributeList
+Action Name: AddComment
+Action Value: {"comment":"Thisattributeisnotavailableanymore.AnalternativeisusingViewComponents:Sample:publicclassSampleViewComponent:ViewComponent{privatereadonlyInjectedService_injectedService;publicSampleViewComponent(InjectedServiceinjectedService){_injectedService=injectedService;}publicIViewComponentResultInvoke(intparameter){varobject=_injectedService.SampleFunction(parameter);//Nonameisspecified,returnstheviewSampleView(samenameascomponent)returnView(object);}}Thenusethistocalltheviewcomponentfromanyview:@awaitComponent.InvokeAsync(\"SampleView\",new{parameter=\"\"})https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-3.1","dontUseCTAPrefix":""}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\CheckoutController.cs
+---------------------------
+
+Action Type: Method
+Action Name: ReplaceMethodOnly
+Action Value: {"oldMethod":"TryUpdateModel","newMethod":"TryUpdateModelAsync"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Method
+Action Name: AddComment
+Action Value: {"comment":"Thisupdatedmethodmightrequiretheparameterstobere-organized","dontUseCTAPrefix":""}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Services\OrderProcessing.cs
+---------------------------
+
+Action Type: Identifier
+Action Name: ReplaceIdentifier
+Action Value: HttpContext
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Services\ShoppingCart.cs
+---------------------------
+
+Action Type: Identifier
+Action Name: ReplaceIdentifier
+Action Value: HttpContext
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Migrations\Configuration.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\ShoppingCartController.cs
+---------------------------
+
+Action Type: Method
+Action Name: ReplaceMethodWithObject
+Action Value: HtmlEncoder.Default.Encode
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: System.Text.Encodings.Web
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\Order.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\App_Start\RouteConfig.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\GadgetsOnlineEntities.cs
+---------------------------
+
+Action Type: Class
+Action Name: AddMethod
+Action Value: protectedoverridevoidOnConfiguring(DbContextOptionsBuilderoptionsBuilder){/*UseConfigurationfromstaticConfigurationManagertoaccessconnectionstringinappsettings.json.Examplebelow:optionsBuilder.UseSqlServer(ConfigurationManager.Configuration.GetConnectionString("CONNECTIONSTRINGNAME"));*/base.OnConfiguring(optionsBuilder);}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Global.asax.cs
+---------------------------
+
+Action Type: Class
+Action Name: RemoveBaseClass
+Action Value: IHttpHandler
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: AddExpression
+Action Value: RequestDelegate_next=null;
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: CreateConstructor
+Action Value: {"types":"RequestDelegate","identifiers":"next"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: ChangeMethodName
+Action Value: {"existingMethodName":"ProcessRequest","newMethodName":"Invoke"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 1
+
+Action Type: Class
+Action Name: ReplaceMethodModifiers
+Action Value: {"methodName":"Invoke","modifiers":"publicasync"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 1
+
+Action Type: Class
+Action Name: ChangeMethodToReturnTaskType
+Action Value: Invoke
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: System.Threading.Tasks
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\GadgetsOnline.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.EntityFrameworkCore,5.0.12
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\App_Start\FilterConfig.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\HomeController.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: CreateNet6FolderHierarchy
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: MigrateConfig
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\GadgetsOnlineDBInitializer.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\Product.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\StoreController.cs
+---------------------------
+
+Action Type: AttributeList
+Action Name: AddComment
+Action Value: {"comment":"Thisattributeisnotavailableanymore.AnalternativeisusingViewComponents:Sample:publicclassSampleViewComponent:ViewComponent{privatereadonlyInjectedService_injectedService;publicSampleViewComponent(InjectedServiceinjectedService){_injectedService=injectedService;}publicIViewComponentResultInvoke(intparameter){varobject=_injectedService.SampleFunction(parameter);//Nonameisspecified,returnstheviewSampleView(samenameascomponent)returnView(object);}}Thenusethistocalltheviewcomponentfromanyview:@awaitComponent.InvokeAsync(\"SampleView\",new{parameter=\"\"})https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-3.1","dontUseCTAPrefix":""}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\CheckoutController.cs
+---------------------------
+
+Action Type: Method
+Action Name: ReplaceMethodOnly
+Action Value: {"oldMethod":"TryUpdateModel","newMethod":"TryUpdateModelAsync"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Method
+Action Name: AddComment
+Action Value: {"comment":"Thisupdatedmethodmightrequiretheparameterstobere-organized","dontUseCTAPrefix":""}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Services\OrderProcessing.cs
+---------------------------
+
+Action Type: Identifier
+Action Name: ReplaceIdentifier
+Action Value: HttpContext
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Services\ShoppingCart.cs
+---------------------------
+
+Action Type: Identifier
+Action Name: ReplaceIdentifier
+Action Value: HttpContext
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Migrations\Configuration.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Controllers\ShoppingCartController.cs
+---------------------------
+
+Action Type: Method
+Action Name: ReplaceMethodWithObject
+Action Value: HtmlEncoder.Default.Encode
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: System.Text.Encodings.Web
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\Order.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\App_Start\RouteConfig.cs
+---------------------------
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Models\GadgetsOnlineEntities.cs
+---------------------------
+
+Action Type: Class
+Action Name: AddMethod
+Action Value: protectedoverridevoidOnConfiguring(DbContextOptionsBuilderoptionsBuilder){/*UseConfigurationfromstaticConfigurationManagertoaccessconnectionstringinappsettings.json.Examplebelow:optionsBuilder.UseSqlServer(ConfigurationManager.Configuration.GetConnectionString("CONNECTIONSTRINGNAME"));*/base.OnConfiguring(optionsBuilder);}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.Entity
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.EntityFrameworkCore
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: D:\Users\abhtia\workshop\dotnet-modernization-gadgetsonline\GadgetsOnline\GadgetsOnline\Global.asax.cs
+---------------------------
+
+Action Type: Class
+Action Name: RemoveBaseClass
+Action Value: IHttpHandler
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: AddExpression
+Action Value: RequestDelegate_next=null;
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: CreateConstructor
+Action Value: {"types":"RequestDelegate","identifiers":"next"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Class
+Action Name: ChangeMethodName
+Action Value: {"existingMethodName":"ProcessRequest","newMethodName":"Invoke"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 1
+
+Action Type: Class
+Action Name: ReplaceMethodModifiers
+Action Value: {"methodName":"Invoke","modifiers":"publicasync"}
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 1
+
+Action Type: Class
+Action Name: ChangeMethodToReturnTaskType
+Action Value: Invoke
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web.Mvc
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Web
+Times Run: 2
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Mvc
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.AspNetCore.Http
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: System.Threading.Tasks
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+
+===========
+BuildErrors
+===========
+
+

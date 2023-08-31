@@ -19,12 +19,15 @@
             @if (User.Identity.IsAuthenticated)
             {
 <li><a>Welcome @User.Identity.Name</a></li>}
-            <li><a href="@Url.Content("~")" id="current">Home</a></li>            
+            <li><a href="@Url.Content("~/Home")" id="current">Home</a></li>
+
             <li><a href="@Url.Content("~/ShoppingCart")">ShoppingCart</a></li>            
         </ul>
     </div>
 
-    @{Html.RenderAction("CategoryMenu", "Store");}
+    @*@{Html.RenderAction("CategoryMenu", "Store");}*@ @*OLD*@
+    @await Component.InvokeAsync("CategoryMenu")
+
 
     <div id="main">
         @RenderBody()

@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using GadgetsOnline.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace GadgetsOnline.Services
 {
@@ -12,8 +12,7 @@ namespace GadgetsOnline.Services
         string ShoppingCartId { get; set; }
 
         public const string CartSessionKey = "CartId";
-
-        public static ShoppingCart GetCart(HttpContextBase context)
+        public static ShoppingCart GetCart(HttpContext context)
         {
             var cart = new ShoppingCart();
             cart.ShoppingCartId = cart.GetCartId(context);
@@ -23,36 +22,22 @@ namespace GadgetsOnline.Services
         internal int CreateOrder(Order order)
         {
             decimal orderTotal = 0;
-
             var cartItems = GetCartItems();
-
             // Iterate over the items in the cart, adding the order details for each
             foreach (var item in cartItems)
             {
-                var orderDetail = new OrderDetail
-                {
-                    ProductId = item.ProductId,
-                    OrderId = order.OrderId,
-                    UnitPrice = item.Product.Price,
-                    Quantity = item.Count
-                };
-
+                var orderDetail = new OrderDetail{ProductId = item.ProductId, OrderId = order.OrderId, UnitPrice = item.Product.Price, Quantity = item.Count};
                 // Set the order total of the shopping cart
                 orderTotal += (item.Count * item.Product.Price);
-
                 store.OrderDetails.Add(orderDetail);
-
             }
 
             // Set the order's total to the orderTotal count
             order.Total = orderTotal;
-
             // Save the order
             store.SaveChanges();
-
             // Empty the shopping cart
             EmptyCart();
-
             // Return the OrderId as the confirmation number
             return order.OrderId;
         }
@@ -60,7 +45,6 @@ namespace GadgetsOnline.Services
         private void EmptyCart()
         {
             var cartItems = store.Carts.Where(cart => cart.CartId == ShoppingCartId);
-
             foreach (var cartItem in cartItems)
             {
                 store.Carts.Remove(cartItem);
@@ -70,45 +54,38 @@ namespace GadgetsOnline.Services
             store.SaveChanges();
         }
 
-        public string GetCartId(HttpContextBase context)
+        public string GetCartId(HttpContext context)
         {
-            if (context.Session[CartSessionKey] == null)
+            //xxxx if (context.Session[CartSessionKey] == null) //OLD
+            if (context.Session.GetString(CartSessionKey) == null)
             {
                 if (!string.IsNullOrWhiteSpace(context.User.Identity.Name))
                 {
-                    context.Session[CartSessionKey] = context.User.Identity.Name;
+                    //xxxx context.Session[CartSessionKey] = context.User.Identity.Name; //OLD
+                    context.Session.SetString(CartSessionKey, context.User.Identity.Name);
                 }
                 else
                 {
                     // Generate a new random GUID using System.Guid class
                     Guid tempCartId = Guid.NewGuid();
-
                     // Send tempCartId back to client as a cookie
-                    context.Session[CartSessionKey] = tempCartId.ToString();
+                    //xxxx context.Session[CartSessionKey] = tempCartId.ToString(); //OLD
+                    context.Session.SetString(CartSessionKey, tempCartId.ToString());
                 }
             }
 
-            return context.Session[CartSessionKey].ToString();
+            //xxxx return context.Session[CartSessionKey].ToString(); //OLD
+            return context.Session.GetString(CartSessionKey);
         }
 
+
         public void AddToCart(int id)
-        {            
-            var cartItem = store.Carts.SingleOrDefault(
-                        c => c.CartId == ShoppingCartId
-                        && c.ProductId == id);
-
-
+        {
+            var cartItem = store.Carts.SingleOrDefault(c => c.CartId == ShoppingCartId && c.ProductId == id);
             if (cartItem == null)
             {
                 // Create a new cart item if no cart item exists
-                cartItem = new Cart
-                {
-                    ProductId = id,
-                    CartId = ShoppingCartId,
-                    Count = 1,
-                    DateCreated = DateTime.Now
-                };
-
+                cartItem = new Cart{ProductId = id, CartId = ShoppingCartId, Count = 1, DateCreated = DateTime.Now};
                 store.Carts.Add(cartItem);
             }
             else
@@ -123,22 +100,18 @@ namespace GadgetsOnline.Services
 
         public int GetCount()
         {
-            int? count = (from cartItems in store.Carts
-                          where cartItems.CartId == ShoppingCartId
-                          select (int?)cartItems.Count).Sum();
-
+            int? count = (
+                from cartItems in store.Carts
+                where cartItems.CartId == ShoppingCartId
+                select (int? )cartItems.Count).Sum();
             return count ?? 0;
         }
 
         internal int RemoveFromCart(int id)
         {
             // Get the cart
-            var cartItem = store.Carts.Single(
-                            cart => cart.CartId == ShoppingCartId
-                            && cart.ProductId == id);
-
+            var cartItem = store.Carts.Single(cart => cart.CartId == ShoppingCartId && cart.ProductId == id);
             int itemCount = 0;
-
             if (cartItem != null)
             {
                 if (cartItem.Count > 1)
@@ -165,12 +138,11 @@ namespace GadgetsOnline.Services
 
         public decimal GetTotal()
         {
-            decimal? total = (from cartItems in store.Carts
-                              where cartItems.CartId == ShoppingCartId
-                              select (int?)cartItems.Count * cartItems.Product.Price).Sum();
+            decimal? total = (
+                from cartItems in store.Carts
+                where cartItems.CartId == ShoppingCartId
+                select (int? )cartItems.Count * cartItems.Product.Price).Sum();
             return total ?? decimal.Zero;
-
         }
     }
-
 }

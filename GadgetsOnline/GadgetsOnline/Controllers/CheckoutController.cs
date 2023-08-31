@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 using GadgetsOnline.Models;
 using GadgetsOnline.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace GadgetsOnline.Controllers
 {
@@ -17,6 +18,7 @@ namespace GadgetsOnline.Controllers
             {
                 this.orderProcessing = new OrderProcessing();
             }
+
             return this.orderProcessing;
         }
 
@@ -36,18 +38,19 @@ namespace GadgetsOnline.Controllers
         public ActionResult AddressAndPayment(FormCollection values)
         {
             var order = new Order();
-            TryUpdateModel(order);
-
+            /* Added by CTA: This updated method might require the parameters to be re-organized */
+            TryUpdateModelAsync(order);
             try
             {
-
                 order.Username = "Anonymous";
                 order.OrderDate = DateTime.Now;
-
                 bool result = GetOrderProcess().ProcessOrder(order, this.HttpContext);
+                return RedirectToAction("Complete", new
+                {
+                id = order.OrderId
+                }
 
-                return RedirectToAction("Complete",
-                    new { id = order.OrderId });
+                );
             }
             catch
             {
