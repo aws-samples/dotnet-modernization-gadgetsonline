@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\AdobeStock_224880717.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Images\\AdobeStock_224880717.jpeg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Headphones\\1.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\Headphones\\1.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Headphones\\2.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\Headphones\\2.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Laptop\\1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Laptop\\1.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Laptop\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Laptop\\2.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Laptop\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Laptop\\3.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Mobile\\1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Mobile\\1.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Mobile\\1.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\Mobile\\1.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Mobile\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Mobile\\2.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Mobile\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\Mobile\\3.jpg"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\Mobile\\Untitled.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\Mobile\\Untitled.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\home-showcase.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\home-showcase.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\logo.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Images\\placeholder.gif",
+      "PackagePath": "staticwebassets\\Content\\Images\\placeholder.gif"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\accordion.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\accordion.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\all.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\all.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\autocomplete.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\autocomplete.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\base.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\base.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\button.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\button.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\core.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\core.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\datepicker.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\datepicker.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\dialog.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\dialog.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\draggable.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\draggable.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_flat_75_ffffff_40x100.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_flat_75_ffffff_40x100.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_glass_75_dadada_1x400.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_glass_75_dadada_1x400.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-icons_454545_256x240.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-icons_454545_256x240.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-icons_888888_256x240.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-icons_888888_256x240.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\menu.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\menu.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\progressbar.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\progressbar.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\resizable.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\resizable.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\selectable.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\selectable.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\selectmenu.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\selectmenu.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\slider.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\slider.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\sortable.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\sortable.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\spinner.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\spinner.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\tabs.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\tabs.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\theme.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\theme.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Content\\themes\\base\\tooltip.css",
+      "PackagePath": "staticwebassets\\Content\\themes\\base\\tooltip.css"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.intellisense.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.min.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery-3.6.0.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.min.map"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AWSDEV\\re-invent-app-mod\\Ashish\\dotnet-modernization-gadgetsonline\\GadgetsOnline\\GadgetsOnline\\wwwroot\\Scripts\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GadgetsOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GadgetsOnline.props",
+      "PackagePath": "build\\GadgetsOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GadgetsOnline.props",
+      "PackagePath": "buildMultiTargeting\\GadgetsOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GadgetsOnline.props",
+      "PackagePath": "buildTransitive\\GadgetsOnline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
