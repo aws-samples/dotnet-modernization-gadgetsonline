@@ -1,3 +1,8 @@
+/****** Object:  Database [GadgetsOnlineDB]    Script Date: 9/15/2023 4:49:56 PM ******/
+USE [master]
+GO
+CREATE DATABASE [GadgetsOnlineDB]
+GO
 USE [GadgetsOnlineDB]
 GO
 /****** Object:  Table [dbo].[__MigrationHistory]    Script Date: 9/15/2023 4:49:56 PM ******/
@@ -305,7 +310,7 @@ CREATE PROCEDURE [dbo].[InsertOrders]
     @Phone nvarchar(24),
     @Email nvarchar(max),
     @Total decimal(18,2)
-	
+
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -314,7 +319,7 @@ BEGIN
 	SET NOCOUNT ON;
 	SET @OrderDate1 = GETDATE()
 	--SET @OrderId = 0
-	
+
     -- Insert statements for procedure here
 	INSERT INTO [dbo].[Orders]
            (
@@ -361,15 +366,15 @@ CREATE PROCEDURE [dbo].[InsertOrders_Detail]
     @Quantity int,
 
     @UnitPrice decimal(18,2)
-	
+
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
 	-- interfering with SELECT statements.
 	DECLARE @OrderDate1 Date
 	SET NOCOUNT ON;
-	
-	
+
+
     -- Insert statements for procedure here
 
 
@@ -394,7 +399,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
- 
+
 CREATE PROCEDURE [dbo].[ViewProducts] AS
 BEGIN
    SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
