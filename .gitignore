@@ -245,4 +245,4 @@ paket-files/
 *.sln.iml
 
 # VS Code
-.vs/
+.vscode/
