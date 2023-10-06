@@ -1,0 +1,12 @@
+﻿@model IEnumerable<GadgetsOnline.Models.Category>
+
+<ul id="categories">
+    @foreach (var category in Model)
+    {
+        <li>
+            @Html.ActionLink(category.Name,
+        "Browse", "Store",
+        new { Category = category.Name }, null)
+        </li>
+    }
+</ul>
