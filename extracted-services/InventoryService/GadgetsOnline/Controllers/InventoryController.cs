@@ -15,6 +15,17 @@ namespace GadgetsOnline.Controllers
     public class InventoryController : ControllerBase
     {
 
+        [Route("/")]
+        public IActionResult HealthCheck()
+        {
+            return Ok();
+        }
+
+        [Route("Inventory/HealthCheck2")]
+        public IActionResult HealthCheck2()
+        {
+            return Ok();
+        }
 
         [Route("GetBestSellers_6da88c34")]
         [ProducesResponseType(typeof(List<Product>), StatusCodes.Status200OK)]
