@@ -3,7 +3,9 @@ $myPath = Split-Path $MyInvocation.MyCommand.Path -Parent
 function Get-ConnectionString {
     $sqlUsername = ((Get-SECSecretValue -SecretId "SQLServerRDSSecret").SecretString | ConvertFrom-Json).username
     $sqlPassword = ((Get-SECSecretValue -SecretId "SQLServerRDSSecret").SecretString | ConvertFrom-Json).password
-    [string] $SQLDatabaseEndpoint = [System.Environment]::GetEnvironmentVariable("SQLDatabaseEndpoint")
+
+    $endpointAddress = Get-RDSDBInstance | Select-Object -ExpandProperty Endpoint | select Address
+    [string] $SQLDatabaseEndpoint = $endpointAddress.Address
 
     [string] $SQLDatabaseEndpointTrimmed = $SQLDatabaseEndpoint.Replace(':1433','')
     [string] $retConnectionString = "Server=$SQLDatabaseEndpointTrimmed;Database=GadgetsOnlineDB;User Id=$sqlUsername;Password=$sqlPassword;"
